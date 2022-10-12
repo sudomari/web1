@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*共通部分*/
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Yu Gothic Medium','游ゴシック Medium','YuGothic',sans-serif;
+    line-height: 1.7;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+.big-bg{
+    background-color:black;
+    background-position: center top;
+    width: 100%;
+}
+/*context*/
+.title{
+    text-align: left;
+    margin-top: 50%;
+}
+.title{
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+.title h1{
+    font-size: 5rem;
+    font-family: "Monotype Corsiva 斜体", "cursive", serif;
+}
+
+
+/*ナビゲーション*/
+.main-nav{
+    max-height: 100vw;
+    text-align: right;
+    display: grid;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+    list-style: none;
+}
+
+.main-nav a{
+    padding: 10px auto -10px;
+    margin: auto auto 0;
+    color: #432;
+    transition: 1s all;
+}
+.main-nav a:hover{
+    font-size: 2.25rem;
+    color: #f93;
+    transition: 1s all;
+}
+.arti{
+    background-color: #423;
+    
+}
+
+/*フッター*/
+footer{
+    background: #432;
+    text-align: center;
+    padding: 25px 0;
+}
+footer p{
+    color: white;
+    font-size: 0.875rem;
+}
+footer hr{
+    color: #ffff89;
+}
